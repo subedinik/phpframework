@@ -2,15 +2,15 @@
 ***********************************************INSTALLATION PROCEDURE******************************************************
 
 
-1. Download and install xammp/ammp server.
+1. Download and install xammp server.
 2. Start Apache and MySQL server
-3. Extract file 'nikhil' in htdocs folder inside xammp/htdoc installation folder.
+3.  Download the file in  htdocs folder inside xammp/htdocs installation folder.
 4. Now open httpd-vhosts.conf (Path to your xammp installation folder\apache\conf\extra)
 5. Add following lines of code:
 	<VirtualHost *:80>
-		DocumentRoot "C:/xampp/htdocs/nikhil/public"
+		DocumentRoot "C:/xampp/htdocs/phpframework/public"
 		ServerName nikhil.com
-		<Directory "C:/xampp/htdocs/nikhil/public">
+		<Directory "C:/xampp/htdocs/phpframework/public">
 			AllowOverride All
 			Require all Granted
 		</Directory> 
@@ -18,4 +18,4 @@
 6. Open hosts (C:\Windows\System32\drivers\etc)and add following lines:
 	127.0.0.1		nikhil.com
 
-7. In your browser, type http://nikhil.com and you are good to go.
+7. In your browser, type http://nikhil.com  or localhost:80 and you are good to go.
