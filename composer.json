@@ -1,0 +1,7 @@
+{
+    "require": {
+        "twig/twig": "^2.0",
+        "phpauth/phpauth": "^1.1",
+        "symfony/assetic-bundle": "^2.8"
+    }
+}
